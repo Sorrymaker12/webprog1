@@ -1,0 +1,405 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 16px;
+	font-family: "Roboto", sans-serif;
+}
+
+/* Welcome */
+.welcome-contents {
+	width: 100%;
+	height: 1000px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #e5edeb;
+}
+
+.welcome-contents-buttons {
+	display: flex;
+}
+
+.welcome-contents-title {
+	margin-top: 4rem;
+	margin-bottom: 16rem;
+}
+
+.welcome-contents-title p {
+	font-size: 2rem;
+}
+
+.welcome-contents-welcome {
+	margin-bottom: 4rem;
+}
+
+.welcome-contents-welcome p {
+	font-size: 3rem;
+}
+
+.login-button {
+	text-decoration: none;
+	font-size: 2rem;
+	color: black;
+	background-color: #99d6ed;
+	padding: 2rem;
+	margin-right: 2rem;
+	margin-top: 2rem;
+}
+
+.regis-button {
+	text-decoration: none;
+	font-size: 2rem;
+	color: black;
+	background-color: #c6ed99;
+	padding: 2rem;
+	margin-left: 2rem;
+	margin-top: 2rem;
+}
+
+/* Register */
+.regis-content {
+	width: 100%;
+	height: 2500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #c2f0f7;
+}
+
+.regis-title {
+	padding-top: 1rem;
+	padding-bottom: 3rem;
+}
+
+.regis-title p {
+	font-size: 4rem;
+}
+
+.regis-form {
+	width: 100%;
+	height: 2500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #c2f0f7;
+}
+
+.form-input {
+	height: 120px;
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+}
+
+.form-caption {
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+	text-align: center;
+}
+
+input[type="submit"]:hover,
+input[type="file"]:hover {
+	cursor: pointer;
+}
+
+input[type="text"] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+}
+
+input[type="text"]:focus {
+	border: 2px solid black;
+	outline: none;
+}
+
+input[type="date"] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+}
+
+input[type="date"]:focus {
+	border: 2px solid black;
+	outline: none;
+}
+
+input[type="number"] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+}
+
+input[type="number"]:focus {
+	border: 2px solid black;
+	outline: none;
+}
+
+input[type="email"] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+}
+
+input[type="email"]:focus {
+	border: 2px solid black;
+	outline: none;
+}
+
+input[type="password"] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+}
+
+input[type="password"]:focus {
+	border: 2px solid black;
+	outline: none;
+}
+
+input[type="textarea"] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+}
+
+input[type="textarea"]:focus {
+	border: 2px solid black;
+	outline: none;
+}
+
+input[type="file"] {
+	border: none;
+	padding: 16px 32px;
+	text-decoration: none;
+	padding-left: 256px;
+	cursor: pointer;
+}
+
+.submit-button {
+	padding: 1rem;
+	margin: 1rem;
+	font-size: 1.5rem;
+	background-color: #c7ea46;
+	border: 2px solid black;
+}
+
+.return-button {
+	padding: 1rem;
+	margin: 1rem;
+	text-decoration: none;
+	font-size: 1.5rem;
+	color: black;
+	background-color: #ffc000;
+	border: 2px solid black;
+}
+
+/* Regis Res */
+.regis-res-content {
+	width: 100%;
+	height: 1000px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #c2f0f7;
+}
+
+.regis-res {
+	margin-top: 2rem;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.fail-msg {
+	color: red;
+	font-size: 1.5rem;
+}
+
+.fail-msg strong {
+	font-size: 1.5rem;
+}
+
+.lgn-btn {
+	padding: 1rem;
+	text-decoration: none;
+	font-size: 1.5rem;
+	color: black;
+	background-color: #c7ea46;
+	border: 2px solid black;
+}
+
+.reg-btn {
+	padding: 1rem;
+	text-decoration: none;
+	font-size: 1.5rem;
+	color: black;
+	background-color: #ffc000;
+	border: 2px solid black;
+}
+
+.succ-msg {
+	font-size: 2rem;
+}
+
+/* Login */
+.login-content {
+	width: 100%;
+	height: 1100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fbfdac;
+}
+
+.login-form {
+	padding: 4rem;
+	background-color: #99d6ed;
+}
+
+.login-title p {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	font-size: 4rem;
+	font-weight: bold;
+}
+
+.login-form-input {
+	height: 150px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.login-caption {
+	font-size: 1.25rem;
+}
+
+.login-btn {
+	display: block;
+	padding: 1rem;
+	text-decoration: none;
+	font-size: 1.5rem;
+	color: black;
+	background-color: #c7ea46;
+	border: 2px solid black;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.ret-btn {
+	padding: 1rem;
+	text-decoration: none;
+	font-size: 1.5rem;
+	color: black;
+	background-color: #ffc000;
+	border: 2px solid black;
+}
+
+.ret-ctr {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Log */
+.log-content {
+	width: 100%;
+	height: 1000px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #e5edeb;
+}
+
+.log-title {
+	padding: 4rem;
+}
+
+.log-title p {
+	font-size: 4rem;
+}
+
+.log-captions {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+	font-size: 1.5rem;
+	color: red;
+}
+
+.home-content {
+	height: 1000px;
+	background-color: #cfcee0;
+	text-align: center;
+}
+
+.welcome-text {
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.welcome-text strong {
+	font-size: 2rem;
+}
+
+.welcome-text p {
+	font-size: 2rem;
+	font-weight: 300;
+}
+
+.navbar {
+	width: 100%;
+	height: 4rem;
+	background-color: #fbfdac;
+	display: flex;
+	padding-left: 4rem;
+	padding-right: 4rem;
+	justify-content: space-between;
+}
+
+.navbar p {
+	padding-top: 1.25rem;
+	font-size: 1.5rem;
+}
+
+.navbar a {
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: black;
+	padding: 1.25rem;
+}
+
+.navbar a:hover {
+	background-color: #f6be00;
+}
+
+.profile-details {
+	height: 1200px;
+	background-color: #cfcee0;
+	text-align: center;
+}
+
+.profile-details h2 {
+	padding: 1rem;
+	font-size: 3rem;
+}
+
+.profile-details img {
+	height: 600px;
+	width: 600px;
+}
+
+.profile-details p {
+	padding: 0.5rem;
+	font-size: 1.25rem;
+}
+
+.profile-details strong {
+	padding: 0.5rem;
+	font-size: 1.25rem;
+}

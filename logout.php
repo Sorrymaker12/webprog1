@@ -1,5 +1,8 @@
 <?php
 session_start();
+session_unset();
+session_destroy();
+header("Location: ./welcome.php");
 ?>
 
 <!DOCTYPE html>
@@ -17,17 +20,7 @@ session_start();
 </head>
 
 <body>
-    <div class="home-content">
-        <div class="navbar">
-            <p>Aplikasi Pengelolaan Keuangan</p>
-            <a href="./home.php">Home</a>
-            <a href="./profile.php">Profile</a>
-            <a href="./logout.php">Logout</a>
-        </div>
-        <div class="welcome-text">
-            <p>Hello <strong> <?php echo $_SESSION["nama-depan"] . " " . $_SESSION["nama-tengah"] . " " . $_SESSION["nama-belakang"]; ?> </strong>, Selamat datang di Aplikasi Pengelolaan Keuangan</p>
-        </div>
-    </div>
+
 </body>
 
 </html>
